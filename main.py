@@ -2,7 +2,7 @@ import googlemaps
 import pandas as pd
 
 # Substitua 'SUA_CHAVE_API' pela sua chave de API do Google Cloud
-gmaps = googlemaps.Client(key='AIzaSyADZZz1rdQxyxJZDh5UmRrDv-VY2doPc3I')
+gmaps = googlemaps.Client(key='inserir sua API')
 
 # Pesquise por empresas de estacionamento em São Paulo
 result = gmaps.places(query='estacionamento')
